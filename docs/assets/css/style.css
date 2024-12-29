@@ -1,35 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=IBM+Plex+Mono&family=Flavors&family=NATS&display=swap');
 
-@font-face {
-  font-family: 'Anonymous Pro';
-  src: url('fonts/anonymous-pro.woff2') format('woff2'),
-       url('fonts/anonymous-pro.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Flavors';
-  src: url('fonts/flavors.woff2') format('woff2'),
-       url('fonts/flavors.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'IBM Plex Mono';
-  src: url('fonts/ibm-plex-mono.woff2') format('woff2'),
-       url('fonts/ibm-plex-mono.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NATS';
-  src: url('fonts/nats.woff2') format('woff2'),
-       url('fonts/nats.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
 :root {
   --font-family-inter: 'Inter', sans-serif;
   --font-family-anonymous-pro: 'Anonymous Pro', sans-serif;
@@ -37,7 +7,6 @@
   --font-family-ibm-plex-mono: 'IBM Plex Mono', sans-serif;
   --font-family-nats: 'NATS', sans-serif;
 }
-
 
 /* CSS Reset */
 * {
