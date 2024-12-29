@@ -1,0 +1,24 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:900|Anonymous+Pro:700|Flavors:400|IBM+Plex+Mono:500,700");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "NATS-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/60abc320562b6f521481be90/fonts/nats-regular.ttf")
+    format("truetype");
+}
