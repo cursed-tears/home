@@ -1,17 +1,13 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const elements = document.querySelectorAll('.fade-in, .slide-in-left, .scale-in');
+document.addEventListener('DOMContentLoaded', () => {
+  const elements = document.querySelectorAll('.fade-in');
   
-  function checkScroll() {
-    elements.forEach(element => {
-      const elementTop = element.getBoundingClientRect().top;
-      const windowHeight = window.innerHeight;
-      
-      if (elementTop < windowHeight * 0.8) {
-        element.classList.add('visible');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
       }
     });
-  }
-  
-  window.addEventListener('scroll', checkScroll);
-  checkScroll();
+  });
+
+  elements.forEach(element => observer.observe(element));
 });
