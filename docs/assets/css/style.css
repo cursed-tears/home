@@ -1,22 +1,30 @@
 .home-page {
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: #ffffff;
 }
 
 .home-page .overlap-group-wrapper {
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 1749px;
+  height: 2299px;
   overflow: hidden;
 }
 
 .home-page .overlap-group {
   position: relative;
-  width: 100%;
+  width: 2127px;
   height: 2299px;
+  left: -301px;
+}
+
+.home-page .text-wrapper,
+.home-page .div,
+.home-page .anonymously {
+  transform: none;
+  left: auto;
 }
 
 .home-page .rectangle {
